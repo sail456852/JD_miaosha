@@ -11,8 +11,8 @@ def login(b):  # 登录京东
     b.click_link_by_text("你好，请登录")
     b.click_link_by_text("账户登录")
     time.sleep(1)
-    b.fill("loginname", "wyzsailor@hotmail.com")  # 填写账户密码
-    b.fill("nloginpwd", "micheal23")
+    b.fill("loginname", "")  # 填写账户密码
+    b.fill("nloginpwd", "")
     b.find_by_id("loginsubmit").click()
     # time.sleep(0.1)
     return b
