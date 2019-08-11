@@ -31,7 +31,7 @@ def loop(b):  #循环点击
             loop(b)  #递归操作
     except Exception as e: #异常情况处理，以免中断程序
         b.reload()  #重新刷新当前页面，此页面为订单提交页
-        time.sleep(2)
+        time.sleepdfsdf
         loop(b)  #重新调用自己
 
 def buy_time(buytime):
